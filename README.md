@@ -1,40 +1,38 @@
-# Summary
+# 🎬 Streaming Platforms Analysis: Market Trends & Strategic Positioning (1980 – 2026)
 
-**🎬 Background**: **15,000 titles** from **10 major streaming platforms** - Netflix, Amazon Prime Video, Disney+, Hulu, HBO Max, Apple TV+, Paramount+, Peacock, JioCinema, and Crunchyroll. Includes IMDb ratings, Rotten Tomatoes scores, cast, directors, genres, budgets, awards, and watch-time data from 1980–2026.
+## 📌 Project Overview
+This project delivers a comprehensive **Exploratory Data Analysis (EDA)** on the content catalogs of **10 major global streaming platforms** (Netflix, Amazon Prime Video, Disney+, Hulu, HBO Max, Apple TV+, Paramount+, Peacock, JioCinema, and Crunchyroll). 
 
-**🎯 Goal**: To analyze the scale, quality, and genre trends to identify the strengths of each platform.
+By analyzing historical and current data up to 2026, the project identifies structural market trends, content quality distributions, and strategic positioning factors that drive each platform's unique competitive advantage.
 
-**📁 Dataset**: [Link](http://kaggle.com/datasets/meruvakodandasuraj/streaming-content-catalog-netflix-prime-disney?select=streaming_catalog.csv)
+* **Core Goal:** Analyze content scale, quality metrics,... to uncover the strategic strengths and content focus of each OTT provider.
 
-# Workflow
+* **Dataset:** 15,000+ titles with fields including IMDb/Rotten Tomatoes scores, budgets, awards, and watch-time data. [Source on Kaggle](http://kaggle.com/datasets/meruvakodandasuraj/streaming-content-catalog-netflix-prime-disney?select=streaming_catalog.csv)
 
-**Step 1: Load dataset and define theme**
 
-- Load a dataset of 15,000 works from the 10 largest streaming platforms 
+## ⚙️ Analytical Workflow
 
-- Set up a consistent interface (Theme) system to optimize the viewer experience.
+### Phase 1: Data Preparation & Preprocessing
+* **Data Overview:** Inspected data types, shapes, and structural integrity across the 15,000 records.
+* **Missing Value Handling:** Systematically handled missing values in critical descriptive fields to prevent statistical bias.
+* **Feature Engineering:** Segmented and engineered a custom "Content Quality Rating" based on weighted IMDb and Rotten Tomatoes scores to categorize titles into clear performance tiers.
 
-**Step 2: Data Overview**
+### Phase 2: Exploratory Data Analysis (EDA)
+* **Market Overview:** Mapped the macro-trends of content volume (Movies vs. TV Shows) and production growth rates from 1980 to 2026.
+* **Performance Analysis (5-Year Deep Dive):** Analyzed audience engagement trends over the last 5 years to evaluate active OTT strategies.
+* **2026 Strategic Positioning:** Focused on the latest 2026 content drops and pinpoint where each platform is currently betting their resources.
 
-General information about the data columns and their data types.
 
-**Step 3: Data Preprocessing**
 
-- Handling missing values: Check and process rows that are missing background information.
-- Categorize content quality: Contents are categorized into quality groups based on scores.
+## 💡 Key Insights Summary
 
-**Step 4: Market Overview**
+| Evaluation Factor | Top Performing Platform | Key Metric / Analytical Finding |
+| :--- | :--- | :--- |
 
-Provide an overview of contents (movies/TV shows) trends and the number of contents released over the years, as well as the scope of contents on each platform.
 
-**Step 5: Performance Analysis**
 
-The purpose of this step is to cover trends over the past five years in order to understand the strategies and development trends of OTT platforms.
 
-**Step 6: Strategic positioning**
-
-This step will focus on exploring the latest trends on OTT platforms in 2026, where it can serve as a crucial positioning strategy.
-
-**KEY INSIGHT SUMMARY**
-
-A summary table of analytical factors and the best platforms for each factor.
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Libraries:** `pandas` for data manipulation, `matplotlib` & `seaborn` for data visualization.
+* **Design Theme:** Customized with a clean, cohesive visual palette tailored for streaming dashboard presentation to optimize readability.
