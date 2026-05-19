@@ -19,7 +19,7 @@ By analyzing historical and current data up to 2026, the project identifies stru
 
 ### Phase 2: Exploratory Data Analysis (EDA)
 * **Market Overview:** Mapped the macro-trends of content volume (Movies vs. TV Shows) and production growth rates from 1980 to 2026.
-* **Performance Analysis (5-Year Deep Dive):** Analyzed audience engagement trends over the last 5 years to evaluate active OTT strategies.
+* **Performance Analysis:** Analyzed audience engagement trends over the last 5 years to evaluate active OTT strategies.
 * **2026 Strategic Positioning:** Focused on the latest 2026 content drops and pinpoint where each platform is currently betting their resources.
 
 
