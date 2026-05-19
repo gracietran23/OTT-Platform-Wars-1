@@ -26,8 +26,14 @@ By analyzing historical and current data up to 2026, the project identifies stru
 
 ## 💡 Key Insights Summary
 
-| Evaluation Factor | Top Performing Platform | Key Metric / Analytical Finding |
+| Analytical Factors | 🥇 Top 1 | 🥈 Top 2 |
 | :--- | :--- | :--- |
+| **📚 Content Library Scale** | Netflix | Amazon Prime Video |
+| **🍅 Avg Rotten Tomatoes Score** | Apple TV+ | HBO Max |
+| **⭐ Avg IMDb Rating** | Apple TV+ | HBO Max |
+| **🏆 Total Awards Won** | Netflix | Amazon Prime Video |
+| **🎬 Drama Performance (2026)** | HBO Max | Peacock |
+| **🌍 The Final Matrix (2026)** | Apple TV+ | Amazon Prime Video | 
 
 
 
